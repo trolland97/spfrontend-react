@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import Slideshow from './components/Slideshow';
 import Company from './components/Company';
 import Fixedimg from './components/Fixedimg';
+import Distribution from './components/Distribution';
+import About from './components/About';
 import { BrowserRouter as Router, Routes as Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         <Slideshow />
         <Company />
         <Fixedimg />
+        <Distribution />
+        <About />
         <Switch>
           <Route path='/' exact />
         </Switch>

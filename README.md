@@ -1,4 +1,4 @@
-# Studio Presen Szakmai gyakorlat / 2023
+# Studio Present Szakmai gyakorlat / 2023
 
 Roland Péter
 

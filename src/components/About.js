@@ -1,5 +1,6 @@
 import React from "react";
 import './About.css';
+import AboutUs from '../about.json';
 
 
 
@@ -12,22 +13,17 @@ function About() {
                 <span className="secondName">u brojkama</span>
             </div>
             <div className="aboutContainer">
-                <div className="aboutElement">
-                    <span className="firstspan">3000<span className="secondspan">㎡</span></span>
-                    <span>Magacinskog prostora</span>
-                </div>
-                <div className="aboutElement">
-                    <span className="firstspan">20</span>
-                    <span>vozila</span>
-                </div>
-                <div className="aboutElement">
-                    <span className="firstspan">8</span>
-                    <span>komercijalista</span>
-                </div>
-                <div className="aboutElement">
-                    <span className="firstspan">170</span>
-                    <span>Brendova</span>
-                </div>
+                {
+                    AboutUs && AboutUs.map(about => {
+                        return (
+
+                            <div className="aboutElement">
+                                <span className="firstspan">{about.title}<span className="secondspan">{about.secondtitle}</span></span>
+                                <span>{about.description}</span>
+                            </div>
+                        )
+                    })
+                }
             </div>
         </>
     )

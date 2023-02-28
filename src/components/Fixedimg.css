@@ -32,3 +32,30 @@
     height: 6px;
     bottom: 0; 
 }
+
+/* Responsibility */
+@media only screen and (max-width: 800px) {
+  .fixedimg-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-size: 20px; } }
+
+@media only screen and (max-width: 650px) {
+  .fixedimg-container{
+    object-fit: contain;
+    height: 350px;
+  } }
+    
+
+
+
+
+
+
+
+
+
+

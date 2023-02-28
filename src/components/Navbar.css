@@ -5,6 +5,7 @@
     align-items: center;
     gap: 1rem;
     height: 62px;
+    cursor: pointer;
 }
 
 li {
@@ -32,14 +33,27 @@ li {
     color: #474747;
     font-weight: 400;
     font-size: 16px;
+    line-height: 26px;
     padding-left: 35px;
     padding-right: 35px;
+    font-family: 'Roboto Condensed';
+}
+
+.navbar-elements:hover {
+    background-color: #BF0F0F;
 }
 
 .element-desc {
     font-weight: 400;
     font-size: 12px;
+    line-height: 14px;
     color: #474747;
+}
+
+@media only screen and (max-width: 1170px) {
+.navbar-elements {
+    display: none;
+}    
 }
 
 

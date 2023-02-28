@@ -7,6 +7,8 @@ import Company from './components/Company';
 import Fixedimg from './components/Fixedimg';
 import Distribution from './components/Distribution';
 import About from './components/About';
+import Brands from './components/Brands';
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes as Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Fixedimg />
         <Distribution />
         <About />
+        <Brands />
+        <Footer />
         <Switch>
           <Route path='/' exact />
         </Switch>

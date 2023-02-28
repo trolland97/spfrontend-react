@@ -1,0 +1,32 @@
+[
+    {
+        "image": "/brand-logos/ajax.png",
+        "description": "Ajax" 
+    },
+
+    {
+        "image": "/brand-logos/cif.png",
+        "description": "Cif"
+    },
+
+    {
+        "image": "/brand-logos/dove.png",
+        "description": "Dove"
+    },
+
+    {
+        "image": "/brand-logos/nivea.png",
+        "description": "Nivea"
+    },
+
+    {
+        "image": "/brand-logos/palmolive.png",
+        "description": "Palmolive"
+    },
+
+
+    {
+        "image": "/brand-logos/vanish.png",
+        "description": "Vanish"
+    }
+]

@@ -7,7 +7,7 @@ import './Distribution.css';
 function Distribution() {
     return (
         <>
-            <distribution className="distribution-container">
+            <distribution className="distributionContainer">
                 <div className="dImages">
                     <img src={img1} alt="distribution1" />
                     <span className="description">POSTANITE NAŠ PARTNER</span>

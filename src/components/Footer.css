@@ -3,7 +3,8 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    padding-bottom: 100px; }
+    padding-bottom: 100px; 
+  }
   
   .footerContents {
     padding-top: 50px;
@@ -11,7 +12,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    gap: 10rem; }
+    gap: 10rem; 
+  }
   
   .footerContacts {
     color: white;
@@ -22,7 +24,8 @@
     gap: 2rem;
     height: 200px;
     border-left: 2px solid rgba(255, 255, 255, 0.26);
-    padding: 0px 0px 10px 25px; }
+    padding: 0px 0px 10px 25px; 
+  }
   
   .contacts {
     display: flex;
@@ -30,10 +33,12 @@
     justify-content: flex-start;
     align-items: center;
     width: 200px;
-    gap: 1rem; }
+    gap: 1rem; 
+  }
   
   .contacts a {
-    color: white; }
+    color: white; 
+  }
 
   .contacts a:hover {
     color: #BF0F0F;
@@ -41,7 +46,8 @@
   
   .footerCompanyName {
     font-size: 28px;
-    font-weight: bold; }
+    font-weight: bold; 
+  }
   
   .footerNavbar {
     color: white;
@@ -53,15 +59,17 @@
     height: 200px;
     font-size: 12px;
     border-left: 1px solid rgba(255, 255, 255, 0.26);
-    padding: 0px 0px 10px 25px; }
+    padding: 0px 0px 10px 25px; 
+  }
   
   .footerNavbar a {
     color: white;
-    text-decoration: none; }
+    text-decoration: none; 
+  }
 
   .footerNavbar a:hover {
     color: #BF0F0F;
-}
+  }
   
   .footerSocialmedia {
     display: flex;
@@ -72,15 +80,16 @@
     gap: 2rem;
     height: 200px;
     border-left: 1px solid rgba(255, 255, 255, 0.26);
-    padding: 0px 0px 15px 25px; }
+    padding: 0px 0px 15px 25px; 
+  }
 
-    .smlogos a {
+  .smlogos a {
       color: white;
-    }
+  }
 
-    .smlogos a:hover {
+  .smlogos a:hover {
       color: #BF0F0F;
-    }
+  }
 
   .copyrightContent {
     position: absolute;
@@ -89,40 +98,48 @@
     width: 100%;
     background-color: black;
     opacity: 0.5;
-    color: white; }
+    color: white; 
+  }
   
   .copyright {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10rem; }
+    gap: 10rem; 
+  }
   
   .copyright a {
     text-decoration: underline;
     color: rgba(255, 255, 255, 0.3);
-    margin-top: 15px; }
+    margin-top: 15px; 
+  }
 
   .copyright a:hover {
     color: #BF0F0F;
   }
   
   .copyright span {
-    margin-top: 15px; }
+    margin-top: 15px; 
+  }
 
-.footerSocialmedia { 
+  .footerSocialmedia { 
     color: white;
     font-size: 12pt;
-}
+  }
 
 /* Responsibility */
 @media only screen and (max-width: 1500px) {
   .copyright {
-    gap: 5rem; } }
+    gap: 5rem; 
+  } 
+}
 
 @media only screen and (max-width: 1250px) {
   .copyright {
-    gap: 2rem; } }
+    gap: 2rem; 
+  } 
+}
 
 @media only screen and (max-width: 1070px) {
   .footerContents {
@@ -132,25 +149,34 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    border: none; }
+    border: none; 
+  }
   .footerContacts {
-    border: none; }
+    border: none; 
+  }
   .footerNavbar {
-    border: none; }
+    border: none; 
+  }
   .footerSocialmedia {
-    border: none; }
+    border: none; 
+  }
   .copyright {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center; 
+  }
   .copyrightContent {
-    height: 200px; }
+    height: 200px; 
+  }
   .copyright span {
     text-align: center;
-    margin-top: 0; }
+    margin-top: 0; 
+  }
   .copyright a {
-    margin-top: 0; } }
+    margin-top: 0; 
+  } 
+}
 
 
 

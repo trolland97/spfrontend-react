@@ -51,10 +51,11 @@ li {
 }
 
 @media only screen and (max-width: 1170px) {
-.navbar-elements {
-    display: none;
-}    
+    .navbar-elements {
+        display: none;
+    }
 }
+
 .navbar-elements {
     display: flex;
     flex-direction: row;
@@ -109,6 +110,4 @@ li {
 
 .navbar-elements {
     display: none;
-}    
-
-
+}

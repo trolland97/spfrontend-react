@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -20,4 +20,30 @@
 .dark-mode {
   background-color: #000;
   color: #000;
+}
+
+.welcome {
+  font-size: 20px;
+}
+
+button.nav.default-nav {
+  background-color: white;
+}
+
+button.nav.default-nav:hover {
+  background-color: #BF0F0F;
+}
+
+
+
+@media screen and (max-width:460px) {
+  .welcome {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:360px) {
+  .welcome {
+    font-size: 13px;
+  }
 }

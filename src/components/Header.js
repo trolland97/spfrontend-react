@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css';
 import img from '../images/logo.png';
 
 function Header() {
@@ -18,12 +17,12 @@ function Header() {
     name.classList.toggle("dark-mode");
     brand.classList.toggle("dark-mode");
   }
-  
+
   return (
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <img src={img} alt='logo' />
           </Link>
           <div className='languages'>
@@ -94,11 +93,11 @@ function Header() {
               </Link>
             </li>
             <li className='drop_buttons'>
-                <span onClick={closeMobileMenu}>Magyar</span>
-                <span onClick={closeMobileMenu}>Srpski</span>
-                <span onClick={closeMobileMenu}>English</span>
-                <span onClick={() => {closeMobileMenu();darkmodeFunction();}}><i className="fa-sharp fa-solid fa-moon"></i>DARK MODE</span>
-              </li>
+              <span onClick={closeMobileMenu}>Magyar</span>
+              <span onClick={closeMobileMenu}>Srpski</span>
+              <span onClick={closeMobileMenu}>English</span>
+              <span onClick={() => { closeMobileMenu(); darkmodeFunction(); }}><i className="fa-sharp fa-solid fa-moon"></i>DARK MODE</span>
+            </li>
           </ul>
         </div>
       </nav>

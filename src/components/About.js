@@ -1,6 +1,5 @@
 import React from "react";
-import './About.css';
-import AboutUs from '../about.json';
+import AboutUs from '../json/about.json';
 
 
 

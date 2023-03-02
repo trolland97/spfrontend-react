@@ -1,0 +1,16 @@
+.each-slide-effect>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 705px;
+}
+
+/*Reponsibility*/
+
+@media only screen and (max-width: 500px) {
+  .each-slide-effect>div {
+    height: 500px;
+    object-fit: contain;
+  }
+}

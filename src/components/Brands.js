@@ -1,6 +1,5 @@
 import React from "react";
-import './Brands.css';
-import Products from '../elements.json';
+import Products from '../json/elements.json';
 import Button from './Button.js';
 
 

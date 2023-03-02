@@ -1,7 +1,6 @@
 import React from "react";
 import companyimg from "../images/company.png";
 import { Link } from "react-router-dom";
-import './Company.css';
 import Button from './Button.js';
 
 function Company() {

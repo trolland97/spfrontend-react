@@ -2,3 +2,6 @@
 
 Roland Péter
 
+npm i react
+
+

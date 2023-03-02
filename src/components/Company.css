@@ -24,7 +24,7 @@
 .titleName {
   text-align: left;
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 22px;
   color: #303030;
   font-weight: 700;
   font-size: 42px;
@@ -43,8 +43,8 @@
 
 .titleProff {
   font-family: 'Inter';
-  padding-top: 5px;
-  padding-bottom: 30px;
+  padding-top: 55px;
+  padding-bottom: 37px;
   width: 500px;
   font-size: 28px;
   font-weight: 400;
@@ -68,7 +68,8 @@
   font-weight: 400;
   text-align: left;
   color: #474747;
-  line-height: 22.4px; 
+  line-height: 22.4px;
+  padding-top: 94px; 
 }
 
 .company-button {
@@ -89,6 +90,15 @@
 }
 
  /*Responsibility*/
+@media screen and (max-width: 1265px) {
+  .titleProff {
+    width: 100%;
+  }
+  
+  .titleProff::after {
+    width: 100%;
+  }
+}
 
 @media only screen and (max-width: 1200px) {
   .homeImg {
@@ -117,6 +127,9 @@
     justify-content: center;
     align-items: center; 
   }
+  .titleProff::after {
+    width: 300px;
+  }
 }
 
 @media only screen and (max-width: 710px) {
@@ -133,6 +146,12 @@
   .companyContainer {
     margin-top: 55px; 
   } 
+  .titleProff::after {
+    width: 100%;
+  }
+  .titleDesc {
+    padding-top: 45px; 
+  }
 }
 
 @media only screen and (max-width: 600px) {

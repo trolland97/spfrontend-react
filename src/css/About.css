@@ -54,7 +54,7 @@
   align-items: center;
   height: 152px;
   width: 100%;
-  border-left: 1px solid #888787;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
   color: white;
 }
 

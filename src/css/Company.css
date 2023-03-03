@@ -89,6 +89,10 @@
   color: black;
 }
 
+.dark-mode {
+  background-color: #202020;
+}
+
 /*Responsibility*/
 @media screen and (max-width: 1265px) {
   .titleProff {

@@ -18,7 +18,7 @@ function Distribution() {
                 </div>
 
                 <div className="dImages">
-                    <img src={img3} alt="distribution3" />
+                    <img className="pseudoimg" src={img3} alt="distribution3" />
                     <span className="description">NAŠI PROIZVODI</span>
                 </div>
 

@@ -10,8 +10,7 @@ body {
 }
 
 .dark-mode {
-  background-color: #000;
-  color: #000;
+  background-color: #202020;
 }
 
 .welcome {
@@ -24,6 +23,10 @@ button.nav.default-nav {
 
 button.nav.default-nav:hover {
   background-color: #BF0F0F;
+}
+
+.react-multi-carousel-dot-list {
+  display: none;
 }
 
 

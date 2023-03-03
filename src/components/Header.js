@@ -12,10 +12,18 @@ function Header() {
     const name = document.querySelector(".nameContainer");
     const brand = document.querySelector(".brandContainer");
     const distribution = document.querySelector(".distributionContainer");
+    const navbar = document.querySelector(".navbar-elements")
+    const header = document.querySelector(".navbar");
+    const company = document.querySelector(".homeContainer");
+    const cardslider = document.querySelector(".productsContainer");
 
     distribution.classList.toggle("dark-mode");
     name.classList.toggle("dark-mode");
     brand.classList.toggle("dark-mode");
+    navbar.classList.toggle("dark-mode");
+    header.classList.toggle("dark-mode");
+    company.classList.toggle("dark-mode");
+    cardslider.classList.toggle("dark-mode");
   }
 
   return (

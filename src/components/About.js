@@ -18,7 +18,7 @@ function About() {
 
                             <div className="aboutElement">
                                 <span className="firstspan">{about.title}<span className="secondspan">{about.secondtitle}</span></span>
-                                <span>{about.description}</span>
+                                <span   className="aboutdesc">{about.description}</span>
                             </div>
                         )
                     })

@@ -79,7 +79,11 @@
 .productsLogo {
   position: absolute;
   left: 0;
-  bottom: -40px;
+  bottom: -50px;
+}
+
+.dark-mode {
+  background-color: #202020;
 }
 
 @media screen and (max-width: 524px) {
